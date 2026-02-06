@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+:root {
+  /* Colors */
+--mountain-medew:#18e299;
+--woodsmoke:#08090b;
+--raptide:#90ecc5;
+
+  /* Layout */
+  --container-max-width: 1024px;
+  --container-padding: 32px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+body {
+    font-family: inter, sans-serif;
+    font-weight: 500;
+background-image: url(./assets/assets/bg-light.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffff;
+    font-size: 18px;
+
+
+}
+
+.container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.btn{
+    background: #ffffff25;
+    backdrop-filter: blur(8px);
+    border-radius: 999px;
+    border: none;
+    padding: 4px 12px;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+align-items: center;
+    padding: 16px 24px;
+    font-weight: bold;
+    background: #ffffff0d;
+    backdrop-filter: blur(90px);
+}
+
+.navlinks{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 504px;
+   
+    margin: 2px;
+    font-weight: 500;
+}
+
+
+.logo{
+    height: 24px;
+    width: 120px;
+    height: auto;
+
+ 
+}
+
+.nav-pt2{
+display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+.nav-btns{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-btn{
+
+color: #ffff;
+font-size: 20px;
+}
+.start-btn{
+background: #ffff;
+font-size: 20px;
+}
