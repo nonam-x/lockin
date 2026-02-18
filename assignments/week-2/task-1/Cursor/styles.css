@@ -66,16 +66,14 @@ nav {
   justify-content: center;
   gap: 2px;
   margin-right: 78px;
+  height: 22px;
+  width: 92px;
 }
 .icon {
   text-align: center;
   font-size: larger;
 }
-.name h1 {
-  font-weight: 600;
-  font-size: 17px;
-  letter-spacing: -1.2;
-}
+
 
 .nav-links {
   display: flex;
