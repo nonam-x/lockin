@@ -12,7 +12,7 @@ No animations, JavaScript, or frameworks were used.
 
 
 Example:
-[\[https://yourusername.github.io/cursor-landing-page/\](https://yourusername.github.io/cursor-landing-page/)](https://cursore.netlify.app/)
+(https://cursore.netlify.app/)
 
 ---
 
@@ -161,7 +161,7 @@ The following sections were implemented:
 1. Clone the repository
 
 ```
-git clone [assignments/week-2/task-1/Cursor](https://github.com/nonam-x/lockin/tree/main/assignments/week-2/task-1/Cursor)
+git clone https://github.com/nonam-x/lockin/tree/main/assignments/week-2/task-1/Cursor
 ```
 
 2. Open `index.html` in your browser.
