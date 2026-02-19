@@ -1,93 +1,178 @@
-Recreate a desktop-first developer tool landing page inspired by the Cursor website. The goal of this assignment is visual and structural accuracy, not creativity or interactivity.
 
-Brand Assets: https://brandfetch.com/cursor.com
+# Cursor-Inspired Developer Tool Landing Page
 
-Focus on making your page look as close as possible to the original in terms of:
+This project is a **desktop-first landing page** inspired by the Cursor website.
+The objective of this assignment was to recreate the **visual structure, layout hierarchy, typography, spacing, and color palette** of the original design as closely as possible using only HTML and CSS.
 
-Page structure and section layout
+No animations, JavaScript, or frameworks were used.
 
-Typography and font usage
+---
 
-Color palette and spacing
+## 🔗 Live Demo
 
-Overall visual hierarchy
 
-You are not required to add animations or interactions.
+Example:
+[\[https://yourusername.github.io/cursor-landing-page/\](https://yourusername.github.io/cursor-landing-page/)](https://cursore.netlify.app/)
 
-## Sections to Build
+---
 
-1. Top Navigation Bar
+##  Repository Structure
 
-Logo, nav links, primary CTA
+```
+/cursor
+│
+├── index.html
+├── styles.css
+├── assets
+│   
+│   
+│
+└── README.md
+```
 
-Dark background
+---
 
-2. Hero Section
+##  Sections Recreated
 
-Main headline, description, CTA
+The following sections were implemented:
 
-Large product screenshot
+1. **Top Navigation Bar**
 
-3. Trusted By / Logos
+   * Logo
+   * Navigation links
+   * Primary CTA button
+   * Dark background
 
-Row of company logos
-4. Feature Sections (3 blocks)
+2. **Hero Section**
 
-Two-column layout (text + image)
+   * Main headline
+   * Description text
+   * CTA button
+   * Large product screenshot
 
-Alternate image/text positions
+3. **Trusted By / Logos**
 
-5. Feature Cards Section
+   * Horizontal row of company logos
 
-Section title
+4. **Feature Sections (3 Blocks)**
 
-Grid of 3–4 cards
+   * Two-column layout (text + image)
+   * Alternating image/text alignment
 
-6. Testimonials
+5. **Feature Cards Section**
 
-Quote cards with name and role
-7. Use Cases / Stories
+   * Section heading
+   * Grid layout with 3–4 feature cards
 
-Cards with image + short text
-8. Changelog / Updates
+6. **Testimonials**
 
-List of updates with date
-9. Team / About
+   * Quote cards
+   * Name and role included
 
-Large image + short description + CTA
-10. Final CTA
+7. **Use Cases / Stories**
 
-Big heading + single button
-11. Footer
+   * Image + short descriptive text cards
 
-Multi-column links and company info
-Constraints:
+8. **Changelog / Updates**
 
-Use only HTML and CSS
+   * List-style layout
+   * Update date + short description
 
-No JavaScript
+9. **Team / About Section**
 
-No TailwindCSS
+   * Large image
+   * Short company description
+   * CTA button
 
-No usage of AI
+10. **Final Call To Action**
 
-No animations or fancy effects
+    * Large headline
+    * Single prominent button
 
-No responsiveness required (desktop-only)
+11. **Footer**
 
-Try as much as possible to use images & icons similar to or taken from the original website where possible
+    * Multi-column link structure
+    * Company info
+    * Dark theme styling
 
-Try to match the fonts, colors and layout closely to the original design
+---
 
-Submission Instructions
-Create a Public github repo using which you can submit the HTML and CSS code
+##  Design Details
 
-Add a README explaining:
+### Typography
 
-Which sections were recreated
+* Body Text: Regular weight
+* Consistent line-height and spacing
 
-Fonts and colors used
+### Color Palette
 
-Include screenshots of your final output (recommended)
+* Text Primary: White / Light Gray
+* Accent Color: (Add the button color used)
+* Card Backgrounds: Slightly lighter dark shade
+* Borders: Subtle low-contrast gray
 
-GitHub repository must be public and if possible host the website to make it easy for evaluation
+### Layout Approach
+
+* Desktop-first fixed-width container
+* Flexbox used for:
+
+  * Navigation layout
+  * Two-column sections
+  * Card grids
+* CSS Grid used for structured card sections (if applicable)
+* Consistent spacing using margin and padding scale
+
+---
+
+##  Technologies Used
+
+* HTML5
+* CSS3 (Flexbox & Grid)
+* No JavaScript
+* No CSS Frameworks
+* No TailwindCSS
+* No animations
+
+---
+
+##  Screenshots
+
+
+
+```
+\screenshots\Screenshot_19-2-2026_84248_cursore.netlify.app.jpeg
+```
+
+---
+
+##  Assignment Constraints Followed
+
+* Desktop-only layout
+* No responsiveness
+* No JavaScript
+* No animations
+* No external frameworks
+* Visual accuracy prioritized over creativity
+
+---
+
+##  How to Run Locally
+
+1. Clone the repository
+
+```
+git clone [assignments/week-2/task-1/Cursor](https://github.com/nonam-x/lockin/tree/main/assignments/week-2/task-1/Cursor)
+```
+
+2. Open `index.html` in your browser.
+
+---
+
+##  Notes
+
+* The layout and styling were carefully structured to match the visual hierarchy of the original Cursor website.
+* Spacing and typography were adjusted to maintain close visual similarity.
+* Images and icons were selected to resemble the original design as closely as possible.
+
+---
+
