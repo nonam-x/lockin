@@ -107,3 +107,17 @@ font-size: 20px;
 background: #ffff;
 font-size: 20px;
 }
+
+.hero{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.hero-text div{
+  height:139px;
+  width:688px ;
+  font-size: 16px;
+  font-weight: 400;
+}
