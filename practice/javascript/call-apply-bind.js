@@ -9,8 +9,6 @@ function intro(work, stack){
 const person1 = {name:"ramu"}
 const person2 = {name:"Krish"}
 
-
-
 // console.log(intro("Policy Bazar", "Js")) //aise call karenge to undefind output ayga 
 
 // console.log(intro.call(person1,"Policy Bazar", "Js" )) //here because of call this points to the person1
